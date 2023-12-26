@@ -1,1 +1,2 @@
-"This is the start of the Sports Wear Group Analytics project" 
+# Sports Wear Group Classification Project
+
