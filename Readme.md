@@ -47,10 +47,10 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 
 ## Data Preprocessing
 - **Check for outliers:**
-    ![Alt text](images/readme/image.png)
+    ![Alt text](Images/readme/image.png)
 - **Create New Features**:
-    ![Alt text](images/readme/image-1.png)
-    ![Alt text](images/readme/image-2.png)
+    ![Alt text](Images/readme/image-1.png)
+    ![Alt text](Images/readme/image-2.png)
 ## Exploratory Data Analysis:
 - **Correlation Matrix**:
     - **`salesPerWeak` has a small positive correlation with `discount` column**
@@ -61,17 +61,17 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
         - **has a negative correlation with `discount`**
         - **has a small negative correlation with `sales` and a small positive correlation with `current_price`**
 
-    ![Alt text](images/readme/image-3.png)
+    ![Alt text](Images/readme/image-3.png)
 - **The Country with the highest Sales is ``Germany``, followed by ``Austria`` and ``France``, Take in mind that the data is imbalanced toward ``Germany``.**
-    ![Alt text](images/readme/image-4.png)
-    ![Alt text](images/readme/image-5.png)
+    ![Alt text](Images/readme/image-4.png)
+    ![Alt text](Images/readme/image-5.png)
 <br>
 
 - **Promo1 had been launched in all countries, Promo2 had been launched only in France.**
 - **There is a relationship between sales and number of promos.**
 - **While promo1 has approximately the same success rate in all countries, Promo2 had twice the success rate in France.**
-    ![Alt text](images/readme/image-6.png)
-    ![Alt text](images/readme/image-7.png)
+    ![Alt text](Images/readme/image-6.png)
+    ![Alt text](Images/readme/image-7.png)
 <br>
 
 - **The most purchased items are:**
@@ -79,29 +79,29 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
     2. Hardware Accessories
     3. Sweatshirts
     4. Shorts
-    ![Alt text](images/readme/image-8.png)
+    ![Alt text](Images/readme/image-8.png)
 - **The month with the Highest purchases is Aug 2015**
 - **It is noted that sales have a sharp decline in April, May, September, October.**
 - **So, It is Recommended to launch media advertisements or store events in these months to increase the amount of sales**
-    ![Alt text](images/readme/image-9.png)
+    ![Alt text](Images/readme/image-9.png)
 - **The promos that happen mostly in December and slightly in January, increase the purchases in both January and February.**
 - **The promos that happens in July and August, increase the purchases in these months significantly.**
 - **So, promos take about a month or less to impact sales.**
-    ![Alt text](images/readme/image-10.png)
+    ![Alt text](Images/readme/image-10.png)
 
 - **Despite, Women having the highest number of purchases in the gender category.**
 - **The percentage of purchases done in each category is approximately close.**
-    ![Alt text](images/readme/image-11.png)
-    ![Alt text](images/readme/image-12.png)
+    ![Alt text](Images/readme/image-11.png)
+    ![Alt text](Images/readme/image-12.png)
 
 - **Training category has the highest number of purchases, followed by Football Generic, Running.**
-    ![Alt text](images/readme/image-13.png)
+    ![Alt text](Images/readme/image-13.png)
 
 - **The Most Purchases is done in regular size, followed by wide and slim sizes.**
-    ![Alt text](images/readme/image-14.png)
+    ![Alt text](Images/readme/image-14.png)
 
 - **The number of sales increases with higher discounts on products.**
-    ![Alt text](images/readme/image-15.png)
+    ![Alt text](Images/readme/image-15.png)
 
 
 - **Based on previous findings:**
@@ -139,7 +139,7 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 
 - **Evaluate the System on the test set**
      - **`Logistic Regression` is the best model, as it has the highest F1 score and accuracy compared to other models.**
-    ![Alt text](images/readme/image-16.png)
+    ![Alt text](Images/readme/image-16.png)
 
 
 ### Code and Resources Used:
