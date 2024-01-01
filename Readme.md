@@ -6,7 +6,8 @@
 ## 2-Business Objective
 - The Business Objective is to use advanced analytics to **increase** their sports wear **sales** and to **increase** the efficiency of their **marketing** campaigns.
 ## 3-Current Solution
-- The company is depending on the **marketing campaigns** to increase sales without using **advanced analytics** to analyze customer behaviors and patterns. 
+- The company is depending on the **marketing campaigns** to increase sales without using **advanced analytics** to analyze customer behaviors and patterns.
+- The **advertisements** result after presenting the offers to `100k` customer have `13.9%` **success rate**.
 ## 4-Frame The Problem
 - Given we have a **labeled** Dataset and the labels consists of **0** and **1** values. 
 This is a **Superivised Binary Classification task**.
@@ -43,7 +44,7 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 - The Dataset consists of **100000** rows and **24** columns, With no **missing** values and no **duplicates**.
 - The Dataset covers only **3 Countries** ``Germany, France, Austria``.
 - The Dataset covers weekly sales happened from ``28 Dec 2014`` to ``30 April 2017``
-- We are dealing with **Imbalnced Dataset** since, ``13.9%`` have labels of value ``1``.
+- We are dealing with **Imbalanced Dataset** since, ``13.9%`` have labels of value ``1``.
 
 ## Data Preprocessing
 - **Check for outliers:**
@@ -103,6 +104,9 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 - **The number of sales increases with higher discounts on products.**
     ![Alt text](Images/readme/image-15.png)
 
+- **The 3 columns `salesPerWeek`, `regular_prices`, `current_prices` have a heavy tailed distribution, it might be helpful to take the log of values, to make it look more gaussian before we feature scale it.**
+- **`customer_id` doesn't seem to have any value, so it is better to not use it**
+![Alt text](Images/readme/image-17.png)
 
 - **Based on previous findings:**
     - If the company wants to increase its sales in low selling months, then It is recommended that the company focuses its campaigns and promotions during the months with the lowest number of sales to push these months sales higher.
