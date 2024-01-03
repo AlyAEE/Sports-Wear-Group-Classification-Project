@@ -104,6 +104,13 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 - **The number of sales increases with higher discounts on products.**
     ![Alt text](Images/readme/image-15.png)
 
+- **Customers in Germany can pay prices that are approximately twice as expensive as those in France and Austria.**
+- **We can increase purchases in both Austria and France by offering products at lower price.**
+
+    ![Alt text](Images/readme/image18.png)
+    ![Alt text](Images/readme/image19.png)
+
+
 - **The 3 columns `salesPerWeek`, `regular_prices`, `current_prices` have a heavy tailed distribution, it might be helpful to take the log of values, to make it look more gaussian before we feature scale it.**
 - **`customer_id` doesn't seem to have any value, so it is better to not use it**
 ![Alt text](Images/readme/image-17.png)
