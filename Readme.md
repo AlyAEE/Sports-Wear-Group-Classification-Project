@@ -117,9 +117,11 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
 
 - **Based on previous findings:**
     - If the company wants to increase its sales in low selling months, then It is recommended that the company focuses its campaigns and promotions during the months with the lowest number of sales to push these months sales higher.
-    - It is recommended to increase the number of campaigns during holiday seasons like Christmas and summer, also to increase the number of campaigns during valentine’s day and black November.
-    - Also, It is better to media campaigns before the season start within a month, to ensure the campaign is effective.
-    Focus on Store events instead of media advertisements in France and try push store events into Germany and Austria to see how well it will do there.
+    - However, If the company want to increase the sales of during holiday seasons like Christmas and summer, valentine’s day and black November, then the company should focus its campaign during these months.
+    - Also, It is better to drop media campaigns before the season start within a month, to ensure the campaign is effective.
+    - Focus on Store events instead of media advertisements in France and try push store events into Germany and Austria to see how well it will do there.
+    - We can increase purchases in both Austria and France by offering products at lower price, Customers are purchasing products with low prices compared to customers in Germany.
+
 
 
 ## Feature Engineering
