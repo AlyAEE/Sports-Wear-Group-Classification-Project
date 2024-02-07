@@ -12,8 +12,9 @@
 - Given we have a **labeled** Dataset and the labels consists of **0** and **1** values. 
 This is a **Superivised Binary Classification task**.
 ## 5-Performance Measure
-- Since we are dealing with a **classification problem**, We can use **Accuracy, Confusion matrix, Precision, Recall, F1-score** <br>
-Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
+- We are dealing with a **classification problem** with an **imbalanced dataset**, We can use **Confusion matrix, Precision, Recall, F1-score** <br>
+- Aligned with the company's objective to increase there marketing efficiency, We will work on utilizing the **Recall** measure
+
 
 
 
@@ -147,11 +148,10 @@ Incase of a **imblanced dataset**, **Accuracy** won't be a good option. <br>
     - **Random Forest**
 - Handling the **imbalanced dataset:**
     - Use **SMOTE over Sampling**
-    - Use **Random Over Sampling**
 - **Fine Tuning the Best Model**
 
 - **Evaluate the System on the test set**
-     - **`Logistic Regression` is the best model, as it has the highest F1 score and accuracy compared to other models.**
+     - **`Logistic Regression` is the best model, as it has the highest Recall score and F1-Score compared to other models.**
     ![Alt text](Images/readme/image-16.png)
 
 
